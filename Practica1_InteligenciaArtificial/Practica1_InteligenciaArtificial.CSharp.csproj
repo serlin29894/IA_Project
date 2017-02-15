@@ -64,11 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FSM\FSM_STRUCTURE.cs" />
+    <Compile Include="Assets\FSM\FSM_Seeker.cs" />
+    <Compile Include="Assets\FixeRot.cs" />
+    <Compile Include="Assets\Scripts\CamaraFollow.cs" />
     <Compile Include="Assets\Scripts\KBDMove.cs" />
     <Compile Include="Assets\Scripts\KBDRotate.cs" />
+    <Compile Include="Assets\Scripts\PlayerBase.cs" />
+    <Compile Include="Assets\Scripts\Seeker_Blackboard.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\SpawnerPlus.cs" />
     <Compile Include="Assets\Scripts\StartStopController.cs" />
+    <Compile Include="Assets\SensingUtils.cs" />
     <Compile Include="Assets\Steerings\Align.cs" />
     <Compile Include="Assets\Steerings\Arrive.cs" />
     <Compile Include="Assets\Steerings\Cohesion.cs" />
